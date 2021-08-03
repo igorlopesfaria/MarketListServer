@@ -7,12 +7,7 @@ import br.com.marketlist.repository.ProductTypeRepository
 import br.com.marketlist.repository.entity.ProductTypeEntity
 import br.com.marketlist.service.data.ProductType
 import org.springframework.data.domain.Sort
-import org.springframework.http.HttpHeaders
-import org.springframework.http.MediaType
 import org.springframework.stereotype.Service
-import org.springframework.web.reactive.function.client.WebClient
-import java.util.*
-
 
 @Service
 class ProductTypeService(private val productTypeRepository: ProductTypeRepository) {
